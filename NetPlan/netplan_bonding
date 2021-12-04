@@ -1,0 +1,24 @@
+network:
+  bonds:
+    bond0:
+      addresses:
+      - 192.168.1.74/21
+      gateway4: 192.168.0.1
+      interfaces:
+      - eno1
+      - eno2
+      - eno3
+      - eno4
+      nameservers:
+        addresses:
+        - 8.8.8.8
+        - 8.8.4.4
+        search: []
+      parameters:
+        mode: balance-rr
+  ethernets:
+    eno1: {}
+    eno2: {}
+    eno3: {}
+    eno4: {}
+  version: 2
